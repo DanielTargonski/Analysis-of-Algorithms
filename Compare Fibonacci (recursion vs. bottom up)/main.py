@@ -82,11 +82,10 @@ numDict = {
     "Fibo-value": fibValues_list
 }
 
-# If you want the index to be the "Integer" column
-# uncomment below:
-# fib_df.set_index('Integer')
+
 
 fib_df = pd.DataFrame(numDict)
+# If you want the index to be the "Integer" column
+# uncomment below:
+# fib_df = fib_df.set_index('Integer')
 print(fib_df)
-
-
